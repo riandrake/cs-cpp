@@ -3,7 +3,8 @@ project(CPlusPlus)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+# This would make Windows do the same export as Linux and Mac
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS OFF)
 
 include(GenerateExportHeader)
 

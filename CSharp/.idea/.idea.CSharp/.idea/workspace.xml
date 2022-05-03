@@ -7,27 +7,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ce576a9-5038-499c-95e0-0c0cf7fec106" name="Changes" comment="" />
+    <list default="true" id="9ce576a9-5038-499c-95e0-0c0cf7fec106" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPlus/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPlus/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPlus/library.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPlus/library.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CPlusPlus/library.h" beforeDir="false" afterPath="$PROJECT_DIR$/../CPlusPlus/library.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CSharp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpApp/CSharpApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpApp/CSharpApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpLib/CSharpLib.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharpLib/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharpApp/HelloWorld.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CSharpApp/HelloWorld.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28aneeDN6QwOqkqba8Z5uztVbUn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CSharpApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -56,8 +78,28 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651463662630</updated>
+      <workItem from="1651478499957" duration="44000" />
+      <workItem from="1651478819833" duration="438000" />
+      <workItem from="1651529977085" duration="9516000" />
+      <workItem from="1651564896129" duration="1839000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

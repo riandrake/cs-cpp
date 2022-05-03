@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpApp", "CSharpApp\CSharpApp.csproj", "{6B4B745E-03ED-418F-A218-8169343D7BF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLib", "CSharpLib\CSharpLib.csproj", "{FB83EF97-098C-4D6C-BACC-D73FC1DA8AAF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,9 +12,5 @@ Global
 		{6B4B745E-03ED-418F-A218-8169343D7BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B4B745E-03ED-418F-A218-8169343D7BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B4B745E-03ED-418F-A218-8169343D7BF6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB83EF97-098C-4D6C-BACC-D73FC1DA8AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB83EF97-098C-4D6C-BACC-D73FC1DA8AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB83EF97-098C-4D6C-BACC-D73FC1DA8AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB83EF97-098C-4D6C-BACC-D73FC1DA8AAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

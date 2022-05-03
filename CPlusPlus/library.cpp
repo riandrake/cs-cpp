@@ -2,16 +2,46 @@
 
 #include <iostream>
 
-#if !defined(HelloWorld_EXPORTS)
-	static_assert(false);
-#endif
-
-void HelloWorld()
+namespace Game
 {
-	std::cout << "Hello, World!" << std::endl;
+	void PrintHelloWorld()
+	{
+		std::cout << "Hello, World!" << std::endl;
+	}
+
+	int Add(int A, int B)
+	{
+		return A + B;
+	}
 }
 
-void MyClass::Echo(const char* Message)
+extern "C"
 {
-	std::cout << Message << std::endl;
+namespace Interop
+{
+	HELLOWORLD_API void* newHello(const char* name)
+	{
+		return new HelloImpl(name);
+	}
+
+	HELLOWORLD_API void deleteHello(IHello* ptr)
+	{
+		delete ptr;
+	}
+
+	HELLOWORLD_API void printName(IHello* ptr)
+	{
+		ptr->printName();
+	}
+
+	HELLOWORLD_API void PrintHelloWorld()
+	{
+		Game::PrintHelloWorld();
+	}
+
+	HELLOWORLD_API int Add(int A, int B)
+	{
+		return Game::Add(A, B);
+	}
+}
 }
